@@ -1,6 +1,6 @@
 opencv-python-headless
 deepface
-mediapipe==0.10.14
+mediapipe
 fpdf2
 streamlit
 pandas
