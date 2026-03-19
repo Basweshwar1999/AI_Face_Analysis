@@ -1,29 +1,50 @@
 # Sensitive Data
 .env
 
+# Streamlit secrets
+.streamlit/secrets.toml
+
 # Python Virtual Environment
 venv/
 .venv/
 env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller / Build Artifacts
+build/
+dist/
+*.spec
+*.egg-info/
+.eggs/
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # AI Database (Local "Brain")
 db/
 *.sqlite3
+*.sqlite
 
-# Temporary files created during transcription
+# Temporary files created during processing
 temp_audio.mp3
-*.txt
+temp/
+tmp/
+*.log
 
 # Data folder 
-# (We usually ignore the contents of data because videos are too large for GitHub)
+# (We usually ignore the contents of data because videos/images are too large for GitHub)
 data/*
-# If you want to keep the folder but ignore the files:
 !data/.gitkeep
 
-# Python cache
-__pycache__/
-*.pyc
-
-# OS files
+# macOS / Windows OS files
 .DS_Store
 Thumbs.db
+Desktop.ini

@@ -1,0 +1,8 @@
+opencv-python-headless
+deepface
+mediapipe==0.10.14
+fpdf2
+streamlit
+pandas
+numpy<2.0.0
+tensorflow==2.13.1
